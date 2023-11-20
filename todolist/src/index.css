@@ -1,0 +1,122 @@
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a{
+  all:unset;
+}
+.navbar {
+  width: 100vw;
+  display: flex;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+}
+
+.boxy {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar button {
+  all: unset;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+}
+
+.boxy button {
+  cursor: pointer;
+  font-size: 1.18rem;
+  padding:6px;
+}
+
+
+.navBut:hover {
+  border-radius:8px;
+  background-color: hsla(53, 10%, 69%, .2);
+}
+
+
+.icon {
+
+  font-size: 1.3rem;
+  width: 20vw;
+}
+
+#sign{
+  cursor: pointer;
+  font-size: 1.18rem; 
+  margin-right: 1rem;
+  background-color:#de483a;
+  color:white;
+  padding:0.5rem 1rem;
+  border-radius:8px;
+}
+
+
+.main-titr {
+  line-height:1.6;
+  padding:6rem;
+  font-size:1.2rem;
+  margin-top:100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.titr{
+  margin-bottom: 30px;
+  font-size:5.5vw;
+}
+
+.subtitr {
+  color:hsla(60, 5%, 58%, 0.865);
+  font-size:1.2rem;
+}
+
+.subtitr::selection{
+  background-color:rgba(255, 247, 30, 0.4);
+}
+
+.hamburger {
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.panelBut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:transparent;
+  font-size:1.3rem;
+  border:None;
+  border-radius:8px;
+  transition:background-color 100ms ease-in-out;
+
+}
+
+.panelBut:hover{
+  background-color:rgb(158, 158, 158);
+
+}
+.panelBox {
+  width:100%;
+  height:95vh;
+  display:grid;
+  gap:10px;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(8,1fr);
+}
+.sign{
+  cursor: pointer;
+  background-color:#de483a;
+  color:white;
+  padding:0.5rem 1rem;
+  border-radius:8px;
+}
+.sign:hover{
+  background-color:#de483a;
+}

@@ -1,0 +1,8 @@
+
+.heroContainer {
+    width:100vw;
+    height:60vh;
+    background-image: url('./assets/img1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
