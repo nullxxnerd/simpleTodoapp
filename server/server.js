@@ -5,7 +5,7 @@ const { ObjectId } = require("mongodb");
 const app = express();
 const port = 4000;
 
-const uri = "mongodb+srv://nullnerd:meow56065076@todoer.55a4wy1.mongodb.net/?retryWrites=true&w=majority"
+const uri = "mongodb+srv:@todoer.55a4wy1.mongodb.net/?retryWrites=true&w=majority"
 
 const connectionParams = {
   useNewUrlParser:true,
